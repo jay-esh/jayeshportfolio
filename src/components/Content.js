@@ -12,7 +12,7 @@ const Content = () => {
   return (
     <>
       <Text statement="About Me" />
-      <div className="flex flex-col mb-20 ml-20 mr-20 bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-opacity-40 lg:ml-20 lg:mr-20 lg:mb-10 rounded-xl text-white md:flex-row">
+      <div className="flex flex-col mb-10 ml-10 mr-10 bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-opacity-40 lg:ml-20 lg:mr-20 lg:mb-10 rounded-xl text-white md:flex-row">
         <img
           className="m-5 rounded-full transition hover:scale-110 md:h-80 md:w-80"
           src="/images/face.png"

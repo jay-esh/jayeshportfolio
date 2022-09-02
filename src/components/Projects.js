@@ -40,7 +40,7 @@ const ProjectsCard = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-6 m-10 text-white ">
         {projects.map((data) => {
           return (
-            <div className="flex flex-col transition  rounded-2xl hover:scale-110 bg-gradient-to-r from-violet-900 to-fuchsia-900 bg-opacity-40 mt-0 m-5 p-10">
+            <div className="flex flex-col transition  rounded-2xl hover:scale-110 bg-gradient-to-r from-violet-900 to-fuchsia-900 bg-opacity-40 mt-0 m-5 p-5">
               <p className="text-xl font-bold mb-2">{data.name}</p>
               <img
                 src={data.image}
