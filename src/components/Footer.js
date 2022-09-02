@@ -12,8 +12,8 @@ const Footer = () => {
     <>
       <div className=" bg-projectBackground bg-repeat-x bg-center rounded-xl w-full">
         <div className=" text-white flex flex-col items-center ">
-          <p className="text-7xl mt-10 mb-10">Contact Me!</p>
-          <div className="text-7xl mb-4 flex m-2">
+          <p className="md:text-7xl mt-10 mb-10 text-6xl">Contact Me!</p>
+          <div className="md:text-7xl mb-4 flex m-2 text-6xl">
             <a href="https://github.com/jay-esh">
               <AiFillGithub className="transition hover:scale-110" />
             </a>
