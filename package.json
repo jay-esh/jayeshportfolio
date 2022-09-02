@@ -1,7 +1,6 @@
 {
   "name": "jayeshportfolio",
   "version": "0.1.0",
-  "homepage": "https://jay-esh.github.io/jayeshportfolio",
   "private": true,
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
@@ -20,8 +19,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
