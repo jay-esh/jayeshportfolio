@@ -5,32 +5,39 @@ const ProjectsCard = () => {
   const projects = [
     {
       name: "Lottery-eth Dapp",
-      languages: "JavaScript, Solidity, Hardhat",
+      languages:
+        "This is a project where I had created on-chain Solidity scripts and connected them to the front-end using Hardhat and javascript. This project just randomly selects an integer number and if you guess the number right u get the price in eth in your wallet (on the testnet).",
       image: "/images/ethereum.png",
+      link: "https://github.com/jay-esh/Lottery-eth",
     },
     {
       name: "cardano-wallet-connect-tx",
       languages:
-        "JavaScript, cardano-serialization-lib NEED TO UPDATE DUE TO VASIL HARDFORK",
+        "In this project I created a script in javascript using Cardano serialisation library which allows the user to transfer ADA to and from wallets and scripts, NEED TO UPDATE THIS PROJECT BECAUSE OF THE VASIL HARDFORK.",
       image: "/images/cardano.png",
+      link: "https://github.com/jay-esh/cardano-wallet-connect-tx",
     },
     {
       name: "eth-nft-parser",
-      languages: "JavaScript",
+      languages:
+        "This is my first ever project related to the blockchain space, where I just display the information about NFTs present in the connected wallet on the front-end.",
       image: "/images/hardhat.png",
+      link: "https://github.com/jay-esh/eth-nft-parser",
     },
   ];
   const internships = [
     {
       name: "Software Developer Intern",
       company: "PetroIT",
-      skills: "JavaScript, Solidity, Hardhat",
+      skills:
+        "During this internship I had implemented a CRUD API in C# and connected this API with the front-end using react and jQuery. ",
       image: "/images/petroit.jpeg",
     },
     {
       name: "Software Developer Intern",
       company: "SnapBrillia",
-      skills: "JavaScript, Solidity, Hardhat",
+      skills:
+        "In this internship I had created a few plutus scripts using Plutus and Haskell, I had also used javascript to connect the onchain scripts to the front-end.",
       image: "/images/snapbrillia.jpeg",
     },
   ];
@@ -47,8 +54,10 @@ const ProjectsCard = () => {
                 className="md:w-[300px] md:h-[180px] w-[200px] h-[110px] rounded-lg mb-2"
               ></img>
 
-              <p>Skills: {data.languages}</p>
-              <AiFillGithub className="hover:animate-spin text-5xl mt-3" />
+              <p>{data.languages}</p>
+              <a href={data.link}>
+                <AiFillGithub className="hover:animate-spin text-5xl mt-3" />
+              </a>
             </div>
           );
         })}
@@ -64,8 +73,7 @@ const ProjectsCard = () => {
                 className="md:w-[200px] md:h-[200px] w-[100px] h-[100px] rounded-lg mb-2"
               ></img>
 
-              <p>Skills: {data.skills}</p>
-              <AiFillGithub className="hover:animate-spin text-5xl mt-3" />
+              <p>{data.skills}</p>
             </div>
           );
         })}

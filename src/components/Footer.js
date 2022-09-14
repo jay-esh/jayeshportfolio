@@ -20,13 +20,13 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/jayesh-anil-57257421b/">
               <AiFillLinkedin className="transition hover:scale-110" />
             </a>
-            <a href="https://twitter.com/">
+            <a href="https://twitter.com/JayeshAnil1">
               <AiFillTwitterCircle className="transition hover:scale-110" />
             </a>
             <a href="mailto:jayeshgps@gmail.com? subject = subject text">
               <AiFillMail className="transition hover:scale-110" />
             </a>
-            <a href="https://www.instagram.com/">
+            <a href="https://www.instagram.com/_.jae_e/">
               <AiOutlineInstagram className="transition hover:scale-110" />
             </a>
           </div>
