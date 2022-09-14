@@ -1,23 +1,9 @@
-import React, { useRef, useState, useMemo, Suspense } from "react";
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import * as THREE from "three";
-import {
-  Extrude,
-  OrbitControls,
-  Center,
-  Scroll,
-  useScroll,
-  useAnimations,
-  Points,
-  Point,
-  Text,
-  Text3D,
-} from "@react-three/drei";
-import { Environment, ScrollControls } from "@react-three/drei";
+import React, { useRef } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { Center, Points, Text3D } from "@react-three/drei";
 
 const Rotate = () => {
   const myMesh = useRef();
-  const data = useScroll();
 
   useFrame(({ clock, camera }) => {
     const a = clock.getElapsedTime();
@@ -44,8 +30,6 @@ const Rotate = () => {
     </mesh>
   );
 };
-
-const points = (num) => {};
 
 const Myself = () => {
   //   const gltf = useLoader(GLTFLoader, "rocket.gltf");

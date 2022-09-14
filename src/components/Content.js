@@ -2,7 +2,6 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiOutlineInstagram,
-  AiOutlineFilePdf,
   AiFillGithub,
   AiFillMail,
 } from "react-icons/ai";
