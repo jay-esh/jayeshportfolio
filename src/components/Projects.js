@@ -4,7 +4,7 @@ import Text from "./Aboutme";
 const ProjectsCard = () => {
   const projects = [
     {
-      name: "Autonomous Remote Control Car",
+      name: "Selft Driving Remote Control Car",
       languages:
         "I was always intrigued by how self driving cars work, so this is project is an attempt towards a self driving remote control car in a simulated environment.",
       image: "/images/AutonomousRC.jpg",
