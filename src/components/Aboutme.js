@@ -3,7 +3,6 @@ import { Canvas } from "@react-three/fiber";
 import { Center, Text3D } from "@react-three/drei";
 
 const Text = ({ statement }) => {
-  //   const font = new FontLoader().parse(font2);
   return (
     <div className=" flex justify-center">
       <Canvas

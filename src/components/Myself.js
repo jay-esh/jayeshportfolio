@@ -9,18 +9,7 @@ const Rotate = () => {
     const a = clock.getElapsedTime();
     if (myMesh) {
       myMesh.current.rotation.x = a * 0.2;
-      //   const offset = 1 - data.offset;
-      //   state.camera.position.set(
-      //     Math.sin(offset) * -10,
-      //     Math.atan(offset * Math.PI * 2) * 5,
-      //     Math.cos((offset * Math.PI) / 3) * -10
-      //   );
-      //   state.camera.lookAt(0, 0, 0);
-      //   myMesh.position.z += a;
     }
-    // if (data) {
-    //   camera.position.x += a;
-    // }
   });
 
   return (
@@ -32,8 +21,6 @@ const Rotate = () => {
 };
 
 const Myself = () => {
-  //   const gltf = useLoader(GLTFLoader, "rocket.gltf");
-  //   console.log(gltf);
   return (
     <div className="h-screen w-full flex flex-col justify-center items-center">
       <Canvas legacy={true} camera={{ fov: 75, position: [150, 50, 100] }}>

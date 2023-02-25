@@ -4,25 +4,25 @@ import Text from "./Aboutme";
 const ProjectsCard = () => {
   const projects = [
     {
-      name: "Lottery-eth Dapp",
+      name: "Autonomous Remote Control Car",
       languages:
-        "This is a project where I had created on-chain Solidity scripts and connected them to the front-end using Hardhat and javascript. This project just randomly selects an integer number and if you guess the number right u get the price in eth in your wallet (on the testnet).",
-      image: "/images/ethereum.png",
-      link: "https://github.com/jay-esh/Lottery-eth",
+        "I was always intrigued by how self driving cars work, so this is project is an attempt towards a self driving remote control car in a simulated environment.",
+      image: "/images/AutonomousRC.jpg",
+      link: "https://github.com/jay-esh/AutonomousRCC",
     },
     {
-      name: "cardano-wallet-connect-tx",
+      name: "Handwritten Digit Recognition",
       languages:
-        "In this project I created a script in javascript using Cardano serialisation library which allows the user to transfer ADA to and from wallets and scripts, NEED TO UPDATE THIS PROJECT BECAUSE OF THE VASIL HARDFORK.",
-      image: "/images/cardano.png",
-      link: "https://github.com/jay-esh/cardano-wallet-connect-tx",
+        "My first ML project where I used the MNIST handwritten data to predict handwritten digits. This was a part of my DATASCI 2G03 course at McMaster University",
+      image: "/images/Handwritten.png",
+      link: "https://github.com/jay-esh/handwritten-digit-recognition-from-scratch",
     },
     {
-      name: "eth-nft-parser",
+      name: "Sentiment Analysis using NLP",
       languages:
-        "This is my first ever project related to the blockchain space, where I just display the information about NFTs present in the connected wallet on the front-end.",
-      image: "/images/hardhat.png",
-      link: "https://github.com/jay-esh/eth-nft-parser",
+        "I wanted to learning more about how natural language is processed by computers and I was also interested in learning about how stock investments are made, what a better way than making a project reads news headlines using NLP for making stock market prediction.",
+      image: "/images/stock.png",
+      link: "https://github.com/jay-esh/nlp-sentiment-analysis",
     },
   ];
   const internships = [
